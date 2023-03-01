@@ -1,8 +1,8 @@
 import React from "react";
-import "./details.scss";
+import "./Details.scss";
 
-const details = () => {
-    return <div>details</div>;
+const Details = () => {
+    return <div>Details</div>;
 };
 
-export default details;
+export default Details;

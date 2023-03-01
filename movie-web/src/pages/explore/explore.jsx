@@ -1,8 +1,8 @@
 import React from "react";
-import "./explore.scss";
+import "./Explore.scss";
 
-const explore = () => {
-    return <div>explore</div>;
+const Explore = () => {
+    return <div>Explore</div>;
 };
 
-export default explore;
+export default Explore;
