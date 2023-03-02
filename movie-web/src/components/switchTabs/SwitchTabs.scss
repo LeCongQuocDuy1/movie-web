@@ -1,0 +1,35 @@
+@keyframes abc {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.switchingTabs {
+    padding: 2px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+
+    .switchItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        border-radius: 30px;
+        height: 34px;
+        background: #fff;
+        color: var(--black);
+        cursor: pointer;
+
+        &.active {
+            background: var(--gradient);
+            color: #fff;
+            animation: abc linear .3s;
+        }
+    }
+}
